@@ -9,7 +9,7 @@ public class HelloController {
     @GetMapping("/")
     public String hello(){
         Calc calc = new Calc();
-        long result = calc.add(10,20);
-        return "Welcome o simple Ecommerce var 6.0 10+20= "+result;
+        long result = calc.add(20,20);
+        return "Welcome o simple Ecommerce var 6.0 20+20= "+result;
     }
 }
