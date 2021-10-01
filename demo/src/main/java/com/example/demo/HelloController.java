@@ -10,6 +10,6 @@ public class HelloController {
     public String hello(){
         Calc calc = new Calc();
         long result = calc.add(10,20);
-        return "Welcome o simple Ecommerce var 5.0 10+20= "+result;
+        return "Welcome o simple Ecommerce var 6.0 10+20= "+result;
     }
 }
